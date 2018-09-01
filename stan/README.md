@@ -356,15 +356,10 @@ PARSER EXPECTED: ")"
 
 **Category** : Dimension/boundary-value
 
-**Description** : 
+**Description** : Incorrect behaviour of CCDFs when there is a negative random variable
 
 **Fix version** : [Commit](https://github.com/stan-dev/stan/commit/40c82248daaa27b27b28118988dc954e0fbfb1a6)
 
-
-
-0  
--0.0412676  
--0.0412676  
 
  
 
@@ -438,11 +433,6 @@ PARSER EXPECTED: ")"
 
 **Fix version** : [Commit](https://github.com/stan-dev/stan/commit/e6193fd8aa135acf4f681fe9722c162ddd05cec0)
 
-
-
-0  
--0.0412676  
-0
 
 
 ### ProbFuzz Stan 36
@@ -589,6 +579,7 @@ PARSER EXPECTED: ")"
 
 **Category** : Inference/Accuracy
 
+**Description** : Function effective_sample_size uses inferior approach to truncate the autocorrelation series causing reported N_eff to be inaccurate
 
 **Fix version** : [Commit](https://github.com/stan-dev/stan/commit/a53cdcd3a25c7050aae71678e403f9478938a814)
 
