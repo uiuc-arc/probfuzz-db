@@ -58,12 +58,17 @@
 
 **Description** : Incorrect sampling behaviour in Cauchy distribution
 
+**Fix version** : [Commit](https://github.com/uber/pyro/commit/0f1d27e81213d548d4ddcd65d19c15156dabf59a)
+
 ### ProbFuzz Pyro 7
  
+**Type** : [Commit](https://github.com/uber/pyro/commit/4acf3ea6ce5cddd1991bab5d3481195a894384ee)
 
 **Category** : Accuracy/Inference
 
 **Description** : Incorrect acceptance ratio in metropolis hastings
+
+**Fix version** : [Commit](https://github.com/uber/pyro/commit/4acf3ea6ce5cddd1991bab5d3481195a894384ee)
 
 ### ProbFuzz Pyro 8
  
@@ -147,7 +152,7 @@
 
 **Description** : key different
 
-**Fix version** : https://github.com/uber/pyro/commit/7d87b71e235ba51051fed5fbc61ace41412737eb
+**Fix version** : [Commit](https://github.com/uber/pyro/commit/7d87b71e235ba51051fed5fbc61ace41412737eb)
 
 ### ProbFuzz Pyro 16
  
@@ -155,9 +160,9 @@
 
 **Category** : Misc
 
-**Description** : 
+**Description** : Batch size should be given as a parameter of inference rather than via the model and/or guide
 
-**Fix version** : 
+**Fix version** : [Commit](https://github.com/uber/pyro/commit/82278db06a5f914b2dccde8c2458c876298879ae)
 
 ### ProbFuzz Pyro 17
  
@@ -165,9 +170,9 @@
 
 **Category** : Misc
 
-**Description** : 
+**Description** : Bug in replaying nested irange
 
-**Fix version** : 
+**Fix version** : [Commit](https://github.com/uber/pyro/commit/d133c48ddce86029705d1b430d87080d996afb00)
 
 ### ProbFuzz Pyro 18
  
@@ -175,9 +180,9 @@
 
 **Category** : Misc
 
-**Description** : 
+**Description** : batch_log_pdf shouldn't be used when enum_discrete=True but there are no discrete variables in the model
 
-**Fix version** : 
+**Fix version** : [Commit](https://github.com/uber/pyro/commit/97cbbcb5c142376e44d50f3754e33c800ae522c7)
 
 ### ProbFuzz Pyro 19
  
