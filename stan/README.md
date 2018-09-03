@@ -400,52 +400,47 @@ PARSER EXPECTED: ")"
 
 ### ProbFuzz Stan 33
  
-**Type** : [Commit](https://github.com/stan-dev/stan/commit/97372b25218ac05df4b7742f5595d142875c4d9a)
+**Type** : [Issue](https://github.com/stan-dev/stan/issues/1244)
 
-**Category** : Infinite loop
+**Category** : Language/Translation
 
-**Description** : Infinite loop caused by 0 next good fft size
+**Description** : Parser error message is not informative
 
-**Fix version** : [Commit](https://github.com/stan-dev/stan/commit/97372b25218ac05df4b7742f5595d142875c4d9a)
-
+**Fix version** : [Commit](https://github.com/stan-dev/stan/commit/df5763064ea8aa0f7f173d2ab3ce5f3107218410)
 
 
 
 ### ProbFuzz Stan 34
  
-**Type** : [Issue](https://github.com/stan-dev/stan/issues/1904)
+**Type** : [Commit](https://github.com/stan-dev/stan/commit/1355899edfdee1ea522c921d904f9d3d405af012)
 
-**Category** : Infinite loop
+**Category** : Language/Translation
 
-**Description** : Numerical instability of transition probabilities
+**Description** : Bug in command line parsing
 
-**Fix version** : [Commit](https://github.com/stan-dev/stan/pull/1905/commits/feed2dbb699377bd696688f818e8703418b6fe83)
-
+**Fix version** : [Commit](https://github.com/stan-dev/stan/commit/1355899edfdee1ea522c921d904f9d3d405af012)
 
 
 ### ProbFuzz Stan 35
  
-**Type** : [Issue](https://github.com/stan-dev/stan/issues/674)
+**Type** : [Commit](https://github.com/stan-dev/stan/commit/5f32769cebe7fb371cdb3a0c2e247fe87c95037c)
 
-**Category** : Infinite loop
+**Category** : Language/Translation
 
-**Description** : Infinite loop in gamma_p functions
+**Description** : Reversed sign in truncated distribution code generation
 
-**Fix version** : [Commit](https://github.com/stan-dev/stan/commit/e6193fd8aa135acf4f681fe9722c162ddd05cec0)
-
+**Fix version** : [Commit](https://github.com/stan-dev/stan/commit/5f32769cebe7fb371cdb3a0c2e247fe87c95037c)
 
 
 ### ProbFuzz Stan 36
  
-**Type** : [Issue](https://github.com/stan-dev/stan/issues/217)
+**Type** : [Issue](https://github.com/stan-dev/stan/issues/1713)
 
-**Category** : Infinite loop
+**Category** : Language/Translation
 
-**Description** : Repeating error(nan) in optimization
+**Description** : unit_vector is allowed in parser but can't complie
 
-**Fix version** : [Commit](https://github.com/stan-dev/stan/commit/0a553d62ff68006e19267ea627bf346c42240b0f)
-
-
+**Fix version** : [Commit](https://github.com/stan-dev/stan/commit/bdddb045478754959a6f0f2d932776db4b80818a)
 
 
 ### ProbFuzz Stan 37
@@ -457,8 +452,6 @@ PARSER EXPECTED: ")"
 **Description** : RNG in transformed data should use the overall seed
 
 **Fix version** : [Issue Comment](https://github.com/stan-dev/stan/issues/2241#issuecomment-340786343)
-
-
 
 
 ### ProbFuzz Stan 38
@@ -740,50 +733,5 @@ PARSER EXPECTED: ")"
 
 **Fix version** : [Commit](https://github.com/stan-dev/stan/commit/9e90fff5e01b9f9a0655a5d0ed2dca9725e04752)
 
-
-
-### ProbFuzz Stan 61
- 
-**Type** : [Issue](https://github.com/stan-dev/stan/issues/1244)
-
-**Category** : Language/Translation
-
-**Description** : Parser error message is not informative
-
-**Fix version** : [Commit](https://github.com/stan-dev/stan/commit/df5763064ea8aa0f7f173d2ab3ce5f3107218410)
-
-
-
-### ProbFuzz Stan 62
- 
-**Type** : [Commit](https://github.com/stan-dev/stan/commit/1355899edfdee1ea522c921d904f9d3d405af012)
-
-**Category** : Language/Translation
-
-**Description** : Bug in command line parsing
-
-**Fix version** : [Commit](https://github.com/stan-dev/stan/commit/1355899edfdee1ea522c921d904f9d3d405af012)
-
-
-### ProbFuzz Stan 63
- 
-**Type** : [Commit](https://github.com/stan-dev/stan/commit/5f32769cebe7fb371cdb3a0c2e247fe87c95037c)
-
-**Category** : Language/Translation
-
-**Description** : Reversed sign in truncated distribution code generation
-
-**Fix version** : [Commit](https://github.com/stan-dev/stan/commit/5f32769cebe7fb371cdb3a0c2e247fe87c95037c)
-
-
-### ProbFuzz Stan 64
- 
-**Type** : [Issue](https://github.com/stan-dev/stan/issues/1713)
-
-**Category** : Language/Translation
-
-**Description** : unit_vector is allowed in parser but can't complie
-
-**Fix version** : [Commit](https://github.com/stan-dev/stan/commit/bdddb045478754959a6f0f2d932776db4b80818a)
 
 
